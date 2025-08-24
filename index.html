@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1>Mon Dashboard</h1>
+  </header>
+
+  <!-- Conteneur principal -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li>Accueil</li>
+        <li>Compteur</li>
+        <li>Todo</li>
+      </ul>
+    </aside>
+
+    <!-- Contenu principal -->
+    <main class="main-content">
+      <!-- Section compteur -->
+      <section class="counter">
+        <h2>Compteur</h2>
+        <p id="count">0</p>
+        <button id="increment">+</button>
+        <button id="decrement">-</button>
+      </section>
+
+      <!-- Section todo -->
+      <section class="todo">
+        <h2>Todo List</h2>
+        <input type="text" id="todo-input" placeholder="Ajouter une tâche">
+        <ul id="todo-list"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

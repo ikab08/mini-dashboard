@@ -1,0 +1,65 @@
+/* Style global */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Container principal */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  background: #444;
+  color: white;
+  width: 200px;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+/* Contenu principal */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Section compteur */
+.counter {
+  margin-bottom: 40px;
+}
+
+.counter button {
+  margin: 5px;
+  padding: 10px 15px;
+}
+
+/* Section todo */
+.todo input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.todo ul {
+  list-style: none;
+  padding: 0;
+}
